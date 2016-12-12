@@ -18,4 +18,14 @@ public class Student {
 	 public void display(){
 		 System.out.println("display student");
 	 }
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setBooks(List<String> books) {
+		this.books = books;
+	}
+	 
 }
