@@ -19,4 +19,27 @@ public class Employee {
 	public void display(){
 		System.out.println("Hello display 123");
 	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getSalPerMonth() {
+		return salPerMonth;
+	}
+
+	public void setSalPerMonth(double salPerMonth) {
+		this.salPerMonth = salPerMonth;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", salPerMonth=" + salPerMonth + "]";
+	}
+	
+	
 }
