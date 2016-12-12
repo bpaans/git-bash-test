@@ -27,9 +27,7 @@ public class Student {
 	public void setBooks(List<String> books) {
 		this.books = books;
 	}
-	public void abcd(){
-		System.out.println("abc");
-	}
+	
 	 
 	
 }
