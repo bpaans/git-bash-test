@@ -16,6 +16,6 @@ public class Student {
 		 return books;		 
 	 }
 	 public void display(){
-		 
+		 System.out.println("display student");
 	 }
 }
