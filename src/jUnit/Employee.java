@@ -16,4 +16,7 @@ public class Employee {
 	public double yearlySalary(double monthlySalary){
 		return 12*monthlySalary;
 	}
+	public void display(){
+		System.out.println("Hello display");
+	}
 }
