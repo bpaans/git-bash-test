@@ -15,4 +15,7 @@ public class Student {
 	 public List<String> getBooks(){
 		 return books;		 
 	 }
+	 public void display(){
+		 
+	 }
 }
