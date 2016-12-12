@@ -31,7 +31,5 @@ public class Student {
 		System.out.println("abc");
 	}
 	 
-	public void jptMethod(){
-		System.out.println(name + "has following books" + books.toString());
-	}
+	
 }
